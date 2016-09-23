@@ -13,8 +13,8 @@ Create HTML5 transparent Canvas animations with SVG Masks over a sequence of JPE
 - Clone repo
 - Drop a transparent png sequence in the /png folder (sequence ends with 1, 2, 3, etc...)
 - Open terminal and run `bash png2svg.sh` - This will convert your pngs to svg masks and jpeg counterparts located in /svg and /jpg folders, respectively
-*If you would like to use a spritesheet instead, convert your images into a spritesheet by running `bash png2sprites.sh`*
-- IMPORTANT: For this to work, you need to have a 'placeholder' image, with the dimensions you want for your video.  Create a placeholder by copying the first frame of your video and renaming it "placeholder.jpg"
+  - **If you would like to use a spritesheet instead, convert your images into a spritesheet by running `bash png2sprites.sh`**
+- **IMPORTANT: For this to work, you need to have a 'placeholder' image, with the dimensions you want for your video.  Create a placeholder by copying the first frame of your video and renaming it "placeholder.jpg"**
 - Move your images into your project folder
 
 ## Javascript Instructions
@@ -104,7 +104,7 @@ Specify the rows, columns, and location of the spritesheet you want to use.  If 
 Projects a specified frame onto the canvas
 
 `this.play()`
-Plays the animatino
+Plays the animation
 
 `this.setPositions()`
 Sets any positioning on the canvas element
